@@ -1,0 +1,5 @@
+# Expo Android Build Error: Dependency Version Conflicts
+
+This repository demonstrates a common, yet elusive, build error when using the Expo CLI to build Android applications. The problem stems from dependency version conflicts within the `android/app/build.gradle` file.  While Expo attempts to manage dependencies, conflicts can arise due to updates or manual modifications.  This often results in cryptic error messages, making diagnosis difficult.
+
+The `build.gradle` file contains the problematic configuration (with a dependency conflict), while `build.gradle.solution` offers the resolution by identifying and resolving the version mismatch. The solution involves manually specifying compatible versions or leveraging dependency management tools within the Gradle script. This bug report is meant to serve as both a record of a frequently encountered issue and as a demonstration of how to resolve this type of problem in Expo projects.
